@@ -1,0 +1,7 @@
+主要说明：
+
+<link rel="stylesheet" href="../common-file/css/reset.css">
+
+<script type="text/javascript" src="../common-file/js/jquery-1.11.3.min.js"></script>
+
+对应的文件请复用上个专题对应的文件即可。

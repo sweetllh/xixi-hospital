@@ -1,0 +1,249 @@
+@charset "utf-8";
+/*
+*  title: toppic design 2016/07/20;
+*  date: 2016-07-20
+*  author: hamsoul;
+*  email: hamboss@live.com;
+*/
+
+body{
+	background-color: #fff;
+	line-height: 1.70;
+	font-size: 14px;
+}
+
+.box-auto-middle{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.banner-area{
+	width: 100%;
+	background: url(../images/banner-img.jpg) center top no-repeat #edf1fc;
+}
+
+.banner-area p{ height: 520px;}
+
+.banner-area a{
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	margin: 378px 0 0 238px;
+	border-radius: 20px;
+	text-indent: -99em;
+}
+
+.intro-text{
+	padding-top: 40px;
+	font-size: 14px;
+	line-height: 2.0;
+}
+
+.intro-text em{
+	font-size: 16px;
+	color: #ff5273;
+}
+
+.three-advantage{
+	height: 412px;
+	/*border-top: 1px solid #c8c8c8;*/
+	background: url(../images/description-advantage-bg.png) center top no-repeat;
+	margin-top: 40px;
+}
+
+.advantage-infos{
+	float: left;
+	width: 218px;
+	margin: 0 46px 0 60px;
+	text-align: center;
+}
+
+.advantage-infos dt{
+	text-shadow: 1px 1px 1px #fff;
+	padding: 20px 0 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.advantage-infos dd{
+	line-height: 2.0;
+	color: #fff;
+}
+
+.qualification-certificate{
+	height: 648px;
+	background: url(../images/qualification-certificate.png) center top no-repeat;
+	margin-top: 80px;
+	position: relative;
+}
+
+.qualification-certificate h3,
+.physical-examination-price h3{
+	position: absolute;
+	left: 50%;
+	top: -16px;
+	z-index: 2;
+	margin-left: -250px;
+	width: 500px;
+	height: 36px;
+	border-radius: 18px;
+	background-color: #ff5273;
+	line-height: 36px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+}
+
+.services-armarium{
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+.services-left-part{
+	float: left;
+	width: 690px;
+}
+
+.services-left-part h3{
+	padding: 6px 0;
+	text-align: center;
+	font-size: 18px;
+	color: #ff5273;
+}
+
+.services-left-part dl{
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+.services-left-part dt{
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #f00;
+	text-align: center;
+	font: italic 32px/50px "Georgia", sans-serif;
+	color: #fff;
+}
+
+.services-left-part dd{
+	float: right;
+	width: 605px;
+}
+
+.services-left-part dd span{
+	display: inline-block;
+	height: 28px;
+	border-radius: 14px;
+	margin: 16px 0 8px;
+	padding: 0 12px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.services-left-part dd p{
+	text-indent: 2.0em;
+	line-height: 1.8;
+}
+
+.armarium-right-part{
+	float: right;
+	width: 258px;
+	border: 1px solid #eee;
+	padding: 10px 10px 0;
+}
+
+.armarium-right-part p{
+	width: 260px;
+	height: 200px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.armarium-right-part img{
+	width: 100%;
+	height: 100%;
+	-webkit-transition: transform 0.64s ease-out;
+	-moz-transition: transform 0.64s ease-out;
+	-ms-transition: transform 0.64s ease-out;
+	-o-transition: transform 0.64s ease-out;
+	transition: transform 0.64s ease-out;
+}
+
+.armarium-right-part img:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-ms-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+}
+
+.physical-examination-price{
+	background: url(../images/vertical-border-bg.png) center top repeat-y;
+	margin: 60px 0;
+	position: relative;
+}
+
+.top-bottom-border-bg{
+	width: 988px;
+	height: 6px;
+	background: url(../images/horizontal-border-bg.png) left top repeat-x;
+	margin: 0 auto;
+}
+
+.tab-bar,
+.price-infos{
+	width: 870px;
+	margin: 60px auto 40px;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+}
+
+.tab-bar li{
+	float: left;
+	background-color: #fafafa;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	padding: 8px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.tab-bar li:last-child{ border-right: 1px solid #eee;}
+
+.tab-bar li.current-status-01{
+	background-color: #ff5273;
+	color: #fff;
+}
+
+.price-infos{ 
+	border-bottom: none;
+	margin: 0 auto;
+}
+
+.price-infos li{ display: none;}
+
+.price-infos li.current-status-02{ display: block;}
+
+.button-online-booking{
+	padding: 30px 0;
+	text-align: center;
+}
+
+.button-online-booking a{
+	display: inline-block;
+	height: 32px;
+	background-color: #ff5878;
+	border-radius: 16px;
+	padding: 0 20px;
+	line-height: 32px;
+	font-size: 16px;
+	color: #fff;
+}

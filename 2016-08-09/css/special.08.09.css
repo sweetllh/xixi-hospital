@@ -1,0 +1,175 @@
+@charset "utf-8";
+/*
+*  title: toppic design 2016/08/09;
+*  date: 2016-08-09
+*  author: hamsoul;
+*  email: hamboss@live.com;
+*/
+
+body{
+	background-color: #fff;
+	line-height: 1.70;
+	font-size: 14px;
+}
+
+.box-auto-middle{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.banner-area{
+	width: 100%;
+	background: url(../images/banner-img.jpg) center top no-repeat #ffecf7;
+}
+
+.banner-area p{ 
+	height: 560px;
+	text-indent: -9999em;
+}
+
+.topic-intro{
+	background-color: #ffc5e5;
+    background-image: -webkit-linear-gradient( -90deg, #ffc5e5 0%, #ff96c9 50%, #ff99ca 100%);
+    background-image: -moz-linear-gradient( -90deg, #ffc5e5 0%, #ff96c9 50%, #ff99ca 100%);
+    background-image: -ms-linear-gradient( -90deg, #ffc5e5 0%, #ff96c9 50%, #ff99ca 100%);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	padding: 0 30px 20px;
+	text-indent: 2.0em;
+	color: #fc4469;
+}
+
+.part-name{
+	margin-top: 60px;
+	height: 80px;
+	overflow: hidden;	
+	text-align: left;
+}
+
+.privilege-activity{
+	margin-top: 0;
+	overflow: hidden;
+}
+
+.privilege-activity dt,
+.privilege-activity dd{
+	width: 472px;
+	height: 290px;
+	background-repeat: none;
+	background-position: top left;
+}
+
+.privilege-activity dt{ 
+	background: url(../images/privilege-bg-one.png); 
+	float: left;
+}
+
+.privilege-activity dd{ 
+	background: url(../images/privilege-bg-two.png); 
+	float: right;
+}
+
+.privilege-activity span{
+	display: block;
+	text-align: center;
+	line-height: 46px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #e23255;
+}
+
+.privilege-activity div{ padding: 20px 30px 0 200px;}
+
+.privilege-activity h5{ 
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.privilege-activity a{
+	display: inline-block;
+	margin-top: 10px;
+    background-color: rgb(252, 68, 105);
+    box-shadow: 0px 3px 0px 0px rgb(210, 37, 72);
+	border-radius: 3px;
+	padding: 5px 15px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.privilege-activity a em{
+	font-weight: normal !important;
+	font-size: 12px;
+}
+
+.info-notice{ padding: 0 30px;}
+
+.info-notice li{
+	padding: 15px 0 5px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.info-notice span{
+	font-family: "Georgia", sans-serif;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.advantage-medical-equipment{
+	margin: 20px 0 60px;
+	overflow: hidden;
+}
+
+.section-left{
+	float: left;
+	width: 420px;
+	padding-left: 30px;
+}
+
+.section-left li{ 
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.section-left li:last-child{ margin-bottom: 0;}
+
+.section-left em{
+	float: left;
+	width: 70px;
+	height: 70px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: normal;
+	font-size: 30px;
+	color: #fff;
+}
+
+.section-left p{
+	float: right;
+	width: 340px;
+}
+
+.section-middle{
+	float: left;
+	width: 212px;
+	height: 320px;
+	margin-left: 40px;
+	overflow: hidden;
+}
+
+.section-right{
+	float: right;
+	width: 280px;
+}
+
+.section-right h5{
+	background-color: #fc4469;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+}
+
+.section-right p{ margin-top: 5px;}

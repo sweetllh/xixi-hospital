@@ -1,0 +1,361 @@
+@charset "utf-8";
+/*
+*  title: toppic design 2017/03/22;
+*  date: 2017/03/22
+*  author: Nick;
+*  email: hamboss@live.com;
+*/
+
+body{
+	line-height: 1.6;
+	font-size: 16px;
+}
+
+.mt50{ margin-top: 30px;}
+
+.box-auto-center{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.banner-show{
+	width: 100%;
+	background: url(../images/banner_bg.jpg) no-repeat top center #feeff1;
+}
+
+.banner-info{
+	height: 520px;
+	position: relative;
+}
+
+.banner-info a{
+	position: absolute;
+	bottom: 90px;
+	right: 224px;
+	width: 190px;
+	height: 48px;
+	background-color: #bf1343;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px; 
+	color: #fff;
+}
+
+.block-title{
+	padding-top: 20px;
+	text-align: center;
+	font: bold 32px/60px "SimSun","Microsoft YaHei";
+	color: #fff;
+	position: relative;
+}
+
+.left-dot:before{
+	content: "";
+	position: absolute;
+	top: 46px;
+	left: 350px;
+	width: 9px;
+	height: 9px;
+	background-color: #dbc3bb;
+	border-radius: 50%;
+}
+
+.part-one{ margin-bottom: 30px;}
+.c-bf1343{ color: #bf1343;}
+.part-one p{ text-indent: 2.0em;}
+
+.part-two{
+	width: 100%;
+	background-color: #bf1343;
+	position: relative;
+}
+
+.part-two:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 156px;
+	width: 100%;
+	height: 1px;
+	background-color: #990f36;
+	color: #fff;
+}
+
+.number-mark{
+	width: 1000px;
+	height: 75px;
+	margin: 10px auto 0;
+	background: url(../images/advantage_number_bg.png) no-repeat top center;
+	overflow: hidden;
+}
+
+.number-mark li{
+	float: left;
+	width: 42px;
+	margin-top: 4px;
+	margin-left: 52px;
+	text-align: center;
+	font-size: 24px;
+	color: #bf1343;
+}
+
+.number-mark li.ml01{ margin-left: 10px;}
+.advanage-list{ padding: 15px 0 30px;}
+
+.advanage-list li{
+	float: left;
+	width: 20px;
+	height: 120px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin-left: 44px;
+	padding: 15px 15px 0;
+	text-align: center;
+	line-height: 1.0;
+	font-size: 18px;
+	color: #bf1343;
+}
+
+.advanage-list li.ml02{ margin-left: 6px;}
+
+.two-line{ 
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.two-line:before{
+	content: "";
+	position: absolute;
+	right: 645px;
+	top: 50px;
+	width: 100%;
+	height: 1px;
+	background-color: #dbc3bb;
+}
+
+.two-line:after{
+	content: "";
+	position: absolute;
+	left: 718px;
+	top: 94px;
+	width: 100%;
+	height: 1px;
+	background-color: #dbc3bb;
+}
+
+.second-title{
+	padding-left: 580px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #666;
+}
+
+.second-title:after{
+	content: "";
+	position: absolute;
+	top: 90px;
+	right: 276px;
+	width: 9px;
+	height: 9px;
+	background-color: #dbc3bb;
+	border-radius: 50%;
+}
+
+.part-three .edu-intro{
+	margin-top: 15px;
+}
+
+.edu-intro dt, .part-four dt{ text-indent: 2.0em;}
+
+.edu-intro dd{ 
+	height: 285px;
+	padding-top: 15px;
+}
+
+.part-four{ 
+	background-color: #efefef;
+	margin-top: 50px; 
+}
+
+.part-four dt{ text-indent: 2.0em;}
+
+.part-four dd{
+	margin: 25px 0 30px;
+	overflow: hidden;
+}
+
+.part-four dd div{
+	float: left;
+	width: 150px;
+	height: 150px;
+	background: url(../images/yoga_advantage_bg.png) no-repeat left top;
+	margin-right: 62px;
+	text-align: center;
+}
+
+.part-four dd div.mr0{ margin-right: 0;}
+
+.part-four dd div p{ 
+	margin-top: 35px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #bf1343;
+}
+
+.part-five .block-title{ padding-top: 0;}
+
+.line-pos:before{
+	top: 60px;
+	right: 654px;
+}
+
+.line-pos:after{
+	top: 16px;
+	left: 796px;
+}
+
+.left-dot-pos:before{
+	top: 28px;
+	left: 340px;
+}
+
+.right-dot-pos:after{
+	top: 12px;
+	right: 198px;
+}
+
+.prise-show{ margin-top: 15px;}
+.prise-show li{ height: 274px;}
+
+.prise-show .left-section{
+	float: left;
+	width: 360px;
+	// padding: 0 15px;
+	background: url(../images/prise_show.jpg) no-repeat 190px 120px #dceffc;
+}
+
+.left-section h3{
+	height: 38px;
+	background-color: #2285c9;
+	margin-bottom: 15px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+}
+
+.left-section p{ padding: 0 15px;}
+
+.prise-show .middle-section{
+	float: left;
+	width: 420px;
+	margin-left: 5px;
+
+}
+
+.middle-section dl{ 
+	height: 88px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.middle-section dt{
+	float: left;
+	width: 20px;
+	padding: 20px 6px;
+	text-align: center;
+	line-height: 1.0;
+	color: #fff;
+}
+
+.middle-section dl.prise-01 dt{ background-color: #778d36;}
+.middle-section dl.prise-02 dt{ background-color: #a65aa2;}
+.middle-section dl.prise-03 dt{ background-color: #a06c4d;}
+
+.middle-section dd{
+	float: right;
+	width: 370px;
+	padding: 6px 0 0 18px;
+}
+
+.middle-section dl.prise-01{ 
+	background-image: url(../images/prise_first_awards_bg.png);
+	margin-bottom: 5px;
+}
+
+.middle-section dl.prise-02{ 
+	background-image: url(../images/prise_second_awards_bg.png);
+	margin-bottom: 5px;
+}
+
+.middle-section dl.prise-03{ background-image: url(../images/prise_third_awards_bg.png);}
+
+.prise-show .right-section{
+	float: right;
+	width: 210px;
+	background-color: #e1f6fa;
+}
+
+.right-section p{ padding: 15px;}
+
+.right-section a{
+	display: block;
+	width: 180px;
+	height: 48px;
+	margin: 0 auto;
+	border-radius: 4px;
+	background-color: #22abc6;
+	text-align: center;
+	line-height: 48px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.part-six{
+	margin-top: 50px;
+	padding-bottom: 30px;
+	background-color: #bf1343;
+}
+
+.part-six table{ 
+	border: 1px solid #990f36;
+	color: #fff;
+}
+
+.part-six table tr{ height: 42px;}
+
+.part-six table td{ 
+	padding: 0 15px;
+	border: 1px solid #990f36;
+}
+
+.w170{ 
+	width: 140px; 
+	text-align: center;
+}
+
+.w260{ 
+	width: 230px; 
+	text-align: center;
+}
+
+.ask-btn{ 
+	padding: 30px 0;
+	text-align: center;
+}
+
+.ask-btn a{
+	display: inline-block;
+	width: 180px;
+	height: 48px;
+	margin: 0 auto;
+	border-radius: 4px;
+	background-color: #bf1343;
+	text-align: center;
+	line-height: 48px;
+	font-size: 18px;
+	color: #fff;
+}

@@ -1,0 +1,203 @@
+@charset "utf-8";
+/*
+*  title: toppic design 2017/02/14;
+*  date: 2017/02/14
+*  author: Nick;
+*  email: hamboss@live.com;
+*/
+
+body{
+	background-color: #fef9f7;
+	line-height: 1.70;
+	font-size: 14px;
+}
+
+.box-auto-center{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.mt40{ margin-top: 40px;}
+
+.banner-section{
+	width: 100%;
+	background: url(../images/ban_bg.png) top left repeat-x;
+}
+
+.banner-align-center{
+	width: 1160px;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.ask-doctor{
+	position: absolute;
+	top: 272px;
+	right: 128px;
+	z-index: 4;
+	width: 160px;
+	height: 48px;
+}
+
+.ask-doctor a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	text-indent: -99em;
+}
+
+.doctor-intro{
+	position: absolute;
+	top: 400px;
+	right: 80px;
+	z-index: 2;
+	width: 400px;
+	color: #fff;
+}
+
+.doctor-intro h3{ 
+	padding-bottom: 8px;
+	font-size: 16px;
+}
+
+.doctor-intro p{ text-indent: 2.0em;}
+
+.block-title{
+	margin-top: 60px;
+	text-align: center;
+}
+
+.block-title span{
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding: 4px 0;
+	font-size: 12px;
+	color: #999;
+}
+
+.doctor-honor{
+	background: url(../images/doctor_honor.jpg) right bottom no-repeat;
+	overflow: hidden;
+}
+
+.doctor-honor li{
+	float: left;
+	margin: 0 20px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.doctor-deed dl{ 
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.doctor-deed dt{
+	float: left;
+	width: 390px;
+	height: 270px;
+	border: 5px solid #fff;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.12);
+	margin-left: 20px;
+}
+
+.doctor-deed dd{
+	float: left;
+	width: 540px;
+	margin-left: 20px;
+}
+
+.doctor-deed dd h2{ font-size: 16px;}
+
+.doctor-deed dd p{ 
+	margin-top: 10px;
+	text-indent: 2.0em;
+}
+
+.doctor-deed dd a{
+	display: inline-block;
+	width: 164px;
+    height: 52px;
+    background-color: #dc8b0a;
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 18px;
+    color: #684712;
+}
+
+.doctor-deed dd a:hover{ background-color: #d48507;}
+
+.doctor-deed ul{
+	margin-left: 19px;
+	overflow: hidden;
+}
+
+.doctor-deed li{
+	float: left;
+	height: 220px;
+	margin: 1px;
+	overflow: hidden;
+	position: relative;
+}
+
+.doctor-deed li em.bg-opacity{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 32px;
+	background-color: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.doctor-deed li div{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 4;
+	width: 100%;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+}
+
+.dortor-service{ overflow: hidden;}
+.dortor-service li{ float: left;}
+
+.dortor-service li.s-01{
+	width: 40px;
+	height: 100px;
+	margin: 0 10px 0 20px;
+	padding: 20px 10px;
+	background-color: #008ada;
+	text-align: center;
+	line-height: 1.0;
+	font-size: 24px;
+	color: #fff;
+}
+
+.dortor-service li.s-03{ margin: 0 2px;}
+
+.dortor-service li.s-04 div{
+	height: 142px;
+	overflow: hidden;
+}
+
+.dortor-service li.s-04 p{
+	width: 285px;
+	height: 126px;
+	margin-top: 2px;
+	padding: 15px;
+	background-color: #dc8b0a;
+	color: #fff;
+}

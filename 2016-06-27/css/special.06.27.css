@@ -1,0 +1,303 @@
+@charset "utf-8";
+/*
+*  title: toppic design 2016/06/24;
+*  date: 2016-06-27
+*  author: lily
+*/
+
+body{
+	background-color: #fff;
+	line-height: 1.70;
+	font-size: 14px;
+}
+
+.main-content{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.banner-function-area{
+	width: 100%;
+	background: url(../images/banner-bg.png) top center no-repeat #fffaf4;
+	background-size: contain;
+	position: relative;
+}
+
+.banner-function-area dt.banner-img{
+	width: 1000px;
+	margin: 0 auto;
+	height: 560px;
+}
+
+dt.banner-img img{ margin: 80px 0 0 362px;}
+
+dt.banner-img p{
+	width: 100%;
+	text-indent: -999em;
+}
+
+.banner-function-area dd.function-bar{
+	position: absolute;
+	left: 50%;
+	bottom: -90px;
+	z-index: 2;
+	width: 1000px;
+	margin-left: -500px;
+	overflow: hidden;
+}
+
+dd.function-bar div{
+	float: left;
+	width: 300px;
+	height: 180px;
+	padding: 10px 15px 0;
+	background-color: #16c5d2;
+}
+
+dd.function-bar div.con-middle-bar{ 
+	width: 310px;
+	background-color: #10b2be;
+}
+
+dd.function-bar div:nth-child(2){ 
+	width: 310px;
+	background-color: #10b2be;
+}
+
+dd.function-bar div h3{
+	font-weight: normal;
+	font-size: 22px;
+	color: #fef00b;
+}
+
+dd.function-bar div p{
+	height: 70px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+dd.function-bar div a{
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 6px 18px;
+	color: #fff;
+}
+
+dd.function-bar a:hover{ background-color: #5cd7e0;}
+
+.auto-middle-wrap{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+.machine-intro{ 
+	height: 352px;
+	overflow: hidden;
+}
+
+.machine-intro .intro-left{
+	float: left;
+	width: 224px;
+}
+
+.intro-left h4,
+.doctor-overview h4{
+	border-top: 1px solid #10b2be;
+	border-bottom: 1px solid #10b2be;
+	padding: 8px 0;
+	font-weight: normal;
+	font-size: 24px;
+	color: #10b2be;
+}
+
+.intro-left p{
+	padding-top: 15px;
+	text-indent: 2.0em;
+}
+
+.machine-intro .intro-pic{
+	float: left; 
+	width: 240px;
+	margin: 0 60px;
+}
+
+.machine-intro .intro-right{
+	float: left;
+	width: 416px;
+	font-size: 18px;
+	overflow: hidden;
+}
+
+.intro-right dt,
+.patient-case dt{
+	float: left;
+	width: 10px;
+	height: 80px;
+	background-color: #10b2be;
+	margin-top: 110px;
+	padding: 20px 23px 20px 17px;
+	line-height: 1.15;
+	color: #fff;
+}
+
+.intro-right dd{
+	float: left;
+	margin-left: 30px;
+	overflow: hidden;
+}
+
+.intro-right dd p{
+	height: 58px;
+	line-height: 58px;
+	color: #10b2be;
+}
+
+.intro-right dd em{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #f8f8f8;
+	border: 1px solid #eaeaea;
+	margin-right: 12px;
+	line-height: 40px;
+	text-indent: 10px;
+	font: italic 28px Georgia Arial;
+}
+
+.doctor-overview{ margin-top: 60px;}
+
+.doctor-overview p{
+	padding: 20px 0 30px;
+	text-indent: 2.0em;
+}
+
+.doctor-infos-list{ overflow: hidden;}
+
+.doctor-infos-list dl{
+	float: left;
+	width: 492px;
+	border: 1px solid #eaeaea;
+	/*overflow: hidden;*/
+	position: relative;
+}
+
+.doctor-infos-list dt{
+	float: left;
+	width: 212px;
+	height: 284px;
+	position: relative;
+}
+
+.doctor-infos-list dt a{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	z-index: 2;
+	margin-left: -50px;
+	padding: 8px 20px;
+	background-color: #10b2be;
+	background-color: rgba(16,178,190,.65);
+	color: #fff;
+}
+
+.doctor-infos-list dt a:hover{ background-color: #10b2be;}
+
+.doctor-infos-list dl.list-right-bar{ float: right;}
+
+.doctor-infos-list dl:last-child{ float: right;}
+
+.doctor-infos-list dd{
+	float: right;
+	width: 255px;
+	height: 284px;
+	padding-right: 10px;
+}
+
+.doctor-infos-list dd h4{
+	padding-top: 10px;
+	font-size: 20px;
+	color: #10b2be;
+}
+
+.doctor-infos-list dd span{
+	display: block;
+	font-size: 12px;
+	color: #666;
+}
+
+.doctor-infos-list dd p{
+	padding-top: 12px;
+	text-indent: 1.0em;
+	font-size: 14px;
+	position: relative;
+}
+
+.doctor-infos-list dd em{
+	font-weight: normal;
+	text-decoration: underline;
+	color: #10b2be;
+}
+
+.doctor-infos-list dd p:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 14px;
+	width: 6px;
+	height: 20px;
+	background-color: #10b2be;
+}
+
+div.read-more-infos{
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 6;
+	width: 250px;
+	height: 284px;
+	background-color: #10b2be;
+	padding: 15px;
+	color: #fff;
+}
+
+.patient-case{ margin: 60px 0;}
+
+.patient-case dl{ overflow: hidden;}
+
+.patient-case dt{
+	float: left;
+	margin-top: 70px;
+	font-size: 18px;
+}
+
+.patient-case dd{
+	float: right;
+	width: 451px;
+	height: 260px;
+	margin-left: 12px;
+	background-color: #f8f8f8;
+}
+
+.case-pic{ 
+	float: left;
+	padding: 24px 0 0 20px;
+}
+
+.case-con{ 
+	float: right;
+	width: 228px;
+	padding-right: 12px;
+}
+
+.case-con h4{
+	padding-top: 20px;
+	font-weight: normal;
+	font-size: 20px;
+	color: #10b2be;
+}
+
+.case-con p{ text-indent: 2.0em;}

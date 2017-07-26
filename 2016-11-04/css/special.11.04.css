@@ -1,0 +1,339 @@
+@charset "utf-8";
+/*
+*  title: toppic design 2016/11/04;
+*  date: 2016-11-04
+*  author: hamsoul;
+*  email: hamboss@live.com;
+*/
+
+.obj-align-center{
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.main-content{
+	margin: 0;
+	padding: 0;
+}
+
+.mr0{ margin-right: 0!important;}
+
+.banner-img{ background: url(../images/banner_bg.jpg) top left repeat-x;}
+
+.banner-img p{
+	width: 1280px;
+	margin: 0 auto;
+	height: 654px;
+}
+
+.intro-text{
+	height: 150px;
+	background: url(../images/intro_bg.png) top left no-repeat;
+}
+
+.intro-text p{
+	padding: 34px 0 0 202px;
+	text-indent: 2em;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.title-text{
+	width: 1000px;
+	height: 32px;
+	margin: 60px auto 56px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.doctor-info{
+	height: 308px;
+	border-bottom: 140px solid #f5f5f5;
+	position: relative;
+}
+
+.doctor-info dl{
+	position: absolute;
+	left: 50%;
+	bottom: -140px;
+	z-index: 2;
+	margin-left: -500px;
+	width: 1000px;
+	height: 360px;
+	background: url(../images/doctor_intro_bg.jpg) top left no-repeat;
+}
+
+.doctor-info dt{
+	padding: 40px 0 0 328px;
+	overflow: hidden;
+}
+
+.doc-name{
+	float: left;
+	width: 362px;
+}
+
+.doc-name h3{
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.doc-name span{ 
+	padding-left: 6px;
+	font-size: 18px;
+	color: #666;
+}
+
+.doc-name p{
+	margin-top: 6px;
+	font-size: 18px;
+	color: #666;
+}
+
+.doc-name a{
+	display: block;
+	margin-top: 20px;
+	width: 170px;
+	height: 40px;
+	background-color: #009cbe;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.doc-advantage{
+	float: right;
+	width: 280px;
+	padding: 10px 15px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #009cbe;
+}
+
+.doctor-info dd{
+	margin-top: 60px;
+	padding-left: 328px;
+}
+
+.doctor-info dd em{
+	display: inline-block;
+	width: 65px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 18px;
+	overflow: hidden;
+}
+
+.doctor-info dd p{ 
+	padding: 8px 0 0 75px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.doctor-info dd a{
+	text-decoration: underline;
+	color: #009cbe;
+}
+
+.case-list{
+	padding: 0 40px;
+	overflow: hidden;
+}
+
+.case-list li{
+	float: left;
+	margin-right: 80px;
+	width: 120px;
+}
+
+/*.case-list li.mr0{ margin-right: 0;}*/
+
+.case-list li div{
+	width: 120px;
+	height: 227px;
+	background: url(../images/case_show_bg.png) top center no-repeat;
+	overflow: hidden;
+}
+
+.case-list div span{
+	display: block;
+	margin: 10px auto 0;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	-webkit-transition: all .88s ease-out;
+	-moz-transition: all .88s ease-out;
+	-ms-transition: all .88s ease-out;
+	-o-transition: all .88s ease-out;
+	transition: all .88s ease-out;
+}
+
+.case-list div span:hover{
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-ms-transform: rotateY(360deg);
+	-o-transform: rotateY(360deg);
+	transform: rotateY(360deg);
+}
+
+.case-list div img{ width: 100%;}
+
+.case-list li p{
+	width: 110px;
+	height: 30px;
+	margin: 10px auto 0;
+	font-size: 12px;
+	text-align: center;
+	line-height: 1.2;
+	color: #666;
+}
+
+.case-list li a{
+	display: block;
+	margin: 10px auto 0;
+	width: 88px;
+	height: 28px;
+	background-color: #f5f5f5;
+	border: 1px solid #d1d1d1;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 14px;
+	color: #ff4100;
+}
+
+.surgery-advantage{
+	height: 380px;
+	background: url(../images/sj_advantage_bg.png) top center no-repeat;
+}
+
+.surgery-advantage dt{
+	float: left;
+	padding-left: 50px;
+	width: 278px;
+}
+
+.surgery-advantage dt p{
+	padding: 17px 0;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.surgery-advantage dd{
+	float: left;
+	margin: 115px 0 0 110px;
+	width: 460px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #009cbe;
+}
+
+.text-explain{
+	padding: 40px 0;
+	background-color: #f5f5f5;
+}
+
+.text-explain p{
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.treat-explain dl{ margin: 30px auto;}
+
+.treat-explain dt{
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #009cbe;
+}
+
+.treat-explain dd.treat-category{
+	width: 926px;
+	height: 404px;
+	background: url(../images/surgery_bg.png) top center no-repeat;
+	position: relative;
+}
+
+.treat-category div{
+	position: absolute;
+	z-index: 2;
+	float: left;
+	width: 96px;
+	height: 60px;
+	-webkit-transition: all .42s;
+	-moz-transition: all .42s;
+	-ms-transition: all .42s;
+	-o-transition: all .42s;
+	transition: all .42s;
+}
+
+.treat-category div:hover{
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+.treat-category div.pos1{ left: 136px; top: 70px;}
+.treat-category div.pos2{ left: 322px; top: 70px;}
+.treat-category div.pos3{ left: 506px; top: 64px;}
+.treat-category div.pos4{ left: 694px; top: 64px;}
+.treat-category div.pos5{ left: 44px; top: 152px;}
+.treat-category div.pos6{ left: 232px; top: 152px;}
+.treat-category div.pos7{ left: 414px; top: 226px;}
+.treat-category div.pos8{ left: 600px; top: 152px;}
+.treat-category div.pos9{ left: 786px; top: 152px;}
+
+.treat-category div p{
+	margin: 7px 0;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	cursor: default;
+}
+
+.ask-btn a{
+	display: block;
+	margin: 0 auto;
+	background: url(../images/ask_icon.png) 120px center no-repeat #009cbe;
+	width: 420px;
+	height: 40px;
+	border-radius: 20px;
+	line-height: 40px;
+	text-indent: 160px;
+	font-size: 14px;
+	color: #fff;
+	overflow: hidden;
+}
+
+.img-show{
+	padding: 30px 0 60px;
+	overflow: hidden;
+}
+
+.img-show li{
+	float: left;
+	margin-right: 17px;
+	width: 225px;
+	height: 160px;
+	padding: 5px;
+	border: 1px solid #d1d1d1;
+	overflow: hidden;
+}
+
+/*.img-show li.mr0{ margin-right: 0;}*/
+.img-show li img{ width: 100%;}
